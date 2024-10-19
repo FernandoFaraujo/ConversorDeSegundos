@@ -11,7 +11,6 @@ def conversão():
             sr = minutos % 60
         
             print(f"\n{conversor} segundos, resultam em {dias} dias, {horas} horas, {mr} minutos e restam {sr} segundos")
-
     
         except ValueError:
             print ("\nletras ou palavras não podem ser executadas, insira novamente abaixo.")
